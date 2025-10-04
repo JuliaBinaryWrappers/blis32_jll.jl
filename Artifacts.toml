@@ -1,69 +1,160 @@
 [[blis32]]
 arch = "aarch64"
-git-tree-sha1 = "9b135f40e270fd59e2792c6f807ca3859dafebd1"
+git-tree-sha1 = "c7341c50abc14096fb6a21c87972f34c3ab9dc2f"
 os = "macos"
 
     [[blis32.download]]
-    sha256 = "015371831c1301f5b4a4c61e9f0c848e6f16c924b0abbac00b15331c654381be"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "8dd4bedefdcfb9c2222ec86e1138044613e8049d2f27f1a55d5d442fe63f2348"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.aarch64-apple-darwin.tar.gz"
 [[blis32]]
 arch = "aarch64"
-git-tree-sha1 = "783921c9f71e432d5e2986ed1387446a394b9582"
+git-tree-sha1 = "451429ddbe1dd324ec23c686bbc879ad7d182282"
 libc = "glibc"
 os = "linux"
 
     [[blis32.download]]
-    sha256 = "5f5e44c9432452f214844e15e7ed03b3f56b1632462189401005604d9058e1c9"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "164650c8451580a7b9a163f619ef9d41bbf86e761f78b351d744f2faec0729cc"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.aarch64-linux-gnu.tar.gz"
 [[blis32]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "9f025284ce5907d738fc4f2e0aa5a504903ca507"
-libc = "glibc"
-os = "linux"
-
-    [[blis32.download]]
-    sha256 = "8516e905d927c647c0918bffbef1c88aebd0b2a8d3cd42de5ca46031212fb04e"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.armv7l-linux-gnueabihf.tar.gz"
-[[blis32]]
-arch = "x86_64"
-git-tree-sha1 = "9d1c592ec7b4ab9dcdcc04e83d13fa3e9a80eb13"
-os = "macos"
-
-    [[blis32.download]]
-    sha256 = "18596740f4c43445a0b243ce6575ff4aed285f7733971f719afb601a95062ccf"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.x86_64-apple-darwin.tar.gz"
-[[blis32]]
-arch = "x86_64"
-git-tree-sha1 = "74a6bb595cac8d905e01bc4c5120bf64d6c14357"
-libc = "glibc"
-os = "linux"
-
-    [[blis32.download]]
-    sha256 = "a913f80df3e47e54d0c00aa49867ada20b48b82c6276103b68972bdb4ef994f3"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.x86_64-linux-gnu.tar.gz"
-[[blis32]]
-arch = "x86_64"
-git-tree-sha1 = "a4b13135b6308ac977202a0852f93921a284aa52"
+arch = "aarch64"
+git-tree-sha1 = "193b32899cb9ea36556787129bef331d98da310e"
 libc = "musl"
 os = "linux"
 
     [[blis32.download]]
-    sha256 = "fa7236a551b4ba1eef4d17d2cd10dbb91aeafee89572df10452533aff1cc7fc2"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.x86_64-linux-musl.tar.gz"
+    sha256 = "3e0bc3f5cb8b075d3efad236da554e8f1a7e802b5fd06e6dbe23ed57e59c289d"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.aarch64-linux-musl.tar.gz"
 [[blis32]]
-arch = "x86_64"
-git-tree-sha1 = "b9903b7dc4220777c10262b481cea07d299d06ec"
+arch = "aarch64"
+git-tree-sha1 = "87b6d606b0cba3bbc94242afed9d9d673fdead9f"
 os = "freebsd"
 
     [[blis32.download]]
-    sha256 = "123d6469c0537484d04487abff3bee7664b4b3df52fee37317af0cec5bc2506b"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "b6bc77e70e8929b2217ace816d1c19a19b9eae2fc6283feabd6a234f86dace12"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.aarch64-unknown-freebsd.tar.gz"
 [[blis32]]
-arch = "x86_64"
-git-tree-sha1 = "ef121e98a44e62a59e41fdaf558e2895d8be052d"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "95fb1b4f78b5e987374115f862cd522cb9db4d73"
+libc = "glibc"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "06c6d5a547daaf6e482378eae0382aadf1af85a05e1535dc767e0e885f1c9c32"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.armv6l-linux-gnueabihf.tar.gz"
+[[blis32]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "cfffedca733fa650f18110a72c9ca2cd40476f18"
+libc = "musl"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "db59ec831fcbe70e301fffb9b555d5893b4173c5b167804cbebcda55daaa68e6"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.armv6l-linux-musleabihf.tar.gz"
+[[blis32]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "95fb1b4f78b5e987374115f862cd522cb9db4d73"
+libc = "glibc"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "06c6d5a547daaf6e482378eae0382aadf1af85a05e1535dc767e0e885f1c9c32"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[blis32]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "cfffedca733fa650f18110a72c9ca2cd40476f18"
+libc = "musl"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "db59ec831fcbe70e301fffb9b555d5893b4173c5b167804cbebcda55daaa68e6"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.armv7l-linux-musleabihf.tar.gz"
+[[blis32]]
+arch = "i686"
+git-tree-sha1 = "de21cb5bdb7c177e9ffbc5e7970ccaaeec6c6ed2"
+libc = "glibc"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "2a0a80e05e05b8f4348999ad8ad2617b0f2581395915cbad5df798ca3693f57d"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.i686-linux-gnu.tar.gz"
+[[blis32]]
+arch = "i686"
+git-tree-sha1 = "29456c51842c1505faa2cbd8164898b48da66552"
+libc = "musl"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "f009917a7cacd244ff10e930e2f2f142c9423c56c35cb06288688a6c194ca032"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.i686-linux-musl.tar.gz"
+[[blis32]]
+arch = "i686"
+git-tree-sha1 = "d75e946bd693c531aeae3d87fd15c54c535bea39"
 os = "windows"
 
     [[blis32.download]]
-    sha256 = "d317d3ff283aae7cec13eff497fbbbda2f2c5f11d11e0265ef239ca4b1066629"
-    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v1.0.0+0/blis32.v1.0.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "9af54964a78f71f369c4c26d298c5cf07675e26d944173b17e7d7f88c969c8b6"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.i686-w64-mingw32.tar.gz"
+[[blis32]]
+arch = "powerpc64le"
+git-tree-sha1 = "6cdbf9bdea1d4b0af0514d87558ada411b6b1e98"
+libc = "glibc"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "b39d1f12a90b029248c47db25c19a83e54233f13e38839405903e3c8afa57978"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.powerpc64le-linux-gnu.tar.gz"
+[[blis32]]
+arch = "riscv64"
+git-tree-sha1 = "38bdd5caf547f36e6e62304c118e7b2a30f8d91c"
+libc = "glibc"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "c3a607683c24c61fb6691993d864a2b33cec957419b56f19ac65a35e59f90d7b"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.riscv64-linux-gnu.tar.gz"
+[[blis32]]
+arch = "x86_64"
+git-tree-sha1 = "999d55431e739e484052fe8eefc9fe855928314f"
+os = "macos"
+
+    [[blis32.download]]
+    sha256 = "dc34898d4a0549f09e0a9b4321aa8d5123d9295e6c64bf2d3304e27ac2aa7f31"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.x86_64-apple-darwin.tar.gz"
+[[blis32]]
+arch = "x86_64"
+git-tree-sha1 = "d39ef7fbc233b161fda1b472a8d4fc21862ca6f2"
+libc = "glibc"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "61eeb592e9577008a5593d75e7e1c3659410f90faaa4f1989c655d00b8054367"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.x86_64-linux-gnu.tar.gz"
+[[blis32]]
+arch = "x86_64"
+git-tree-sha1 = "82147eeb6048e08d66dafafc3828efe5878a9c7d"
+libc = "musl"
+os = "linux"
+
+    [[blis32.download]]
+    sha256 = "61c02da39cf32b03ac924d9976550e367ec71aaa6b283cca382f40f5e866c528"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.x86_64-linux-musl.tar.gz"
+[[blis32]]
+arch = "x86_64"
+git-tree-sha1 = "425f7001ef416bb71d69f44954cd1f005268cca5"
+os = "freebsd"
+
+    [[blis32.download]]
+    sha256 = "118367fcbd2206c51b301b969a970b3ad5418d322f06bda0bb5d3edb50eaa3ad"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.x86_64-unknown-freebsd.tar.gz"
+[[blis32]]
+arch = "x86_64"
+git-tree-sha1 = "3bea0a6c523521ecfbeb2524b23742f9e75550bd"
+os = "windows"
+
+    [[blis32.download]]
+    sha256 = "32593b717770b29635b0558d9a4e960ad32449179ecac30b50b57e1eacdfd326"
+    url = "https://github.com/JuliaBinaryWrappers/blis32_jll.jl/releases/download/blis32-v2.0.0+0/blis32.v2.0.0.x86_64-w64-mingw32.tar.gz"
